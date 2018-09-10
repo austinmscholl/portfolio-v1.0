@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Austin Scholl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Lora|Noto+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+        </ul>
+        <span class="nav-item">
+          <a class="nav-link resume" href="#">Resume</a>
+        </span>
+      </div>
+    </nav>
+
+    <div class="grid-container">
+      <div class="grid-item item1" id="about">
+        <h2 id="name">Austin Scholl | Software Developer | Indianapolis, IN</h2>
+        <h4>About Me</h4>
+        <p>I am a soon-to-be graduate of <a href="https://elevenfifty.org" target="_blank">Eleven Fifty's</a> Javascript bootcamp</p>
+        <p>I am passionate about coding and love the process of continuous learning</p>
+        <p>I am interested in working on meaningful projects and leaving the world better than I found it</p>
+        <h4>Development and Technologies</h4>
+        <p>JavaScript - C# - .NET - Xamarin - HTML - CSS - jQuery </p>
+        <h4>Hobbies and Interests</h4>
+        <p>Meditation - Yoga - Krav Maga - Podcasts - Philosophy - Psychology</p>
+        <p>Meaningful Relationships - Meaningful Experiences</p>
+      </div>
+      <div class="projects">
+        <h2>Projects</h2>
+      </div>
+
+      <div class="grid-item item2 portfolio" id="">
+        <h4>Mock Store App</h4>
+        <a href="https://austinmscholl.github.io/storeApp/" target="_blank">
+          <img src="assets/img/lotr_site_25.png" alt="Lord of the Rings Mock Store" height="288px" width="288px">
+        </a>
+        <p>A static store-front website built using HTML and CSS</p>
+      </div>
+      <div class="grid-item item3 portfolio" id="">
+        <h4>Recipe Search API</h4>
+        <a href="https://austinmscholl.github.io/storeApp/" target="_blank">
+          <img src="assets/img/recipe_25.png" alt="Recipe Search API" height="288px" width="288px">
+        </a>
+        <p>A recipe search API through <a href="https://www.edamam.com" target="_blank">Edamam</a></p>
+      </div>
+      <div class="grid-item item4 portfolio" id="">
+        <h4>Ugly Creature CSS</h4>
+        <a href="https://codepen.io/austinmscholl/pen/vzGPRQ" target="_blank">
+          <img src="assets/img/uglycreature_25.png" alt="'Ugly' Creature built using HTML & CSS" height="288px" width="288px">
+        </a>
+        <p>An "Ugly" Creature built using only HTML & CSS</p>
+      </div>
+      <div class="grid-item item5" id="contact">
+        <h3>Get In Touch</h3>
+        <form action="https://formspree.io/austinmscholl@gmail.com" method="POST">
+          <div class="control-group">
+          <div class="form-group">
+              <label>Name</label>
+              <input
+              type="text"
+              class="form-control"
+              placeholder="Your Name"
+              id="name"
+              required
+              data-validation-required-message="Please enter your name"
+              name="name"
+              >
+              <p class="help-block text-danger"></p>
+          </div>
+          </div>
+          <div class="control-group">
+          <div class="form-group">
+              <label>Email Address</label>
+              <input
+              type="email"
+              class="form-control"
+              placeholder="Your Email"
+              id="email"
+              required
+              data-validation-required-message="Please enter your email"
+              name="_replyto"
+              >
+              <p class="help-block text-danger"></p>
+          </div>
+          </div>
+          <div class="control-group">
+          <div class="form-group">
+              <textarea
+              class="form-control"
+              rows="7"
+              placeholder="Your Message"
+              id="message"
+              required
+              data-validation-required-message="Please leave a message"
+              name="message"
+              ></textarea>
+              <p class="help-block text-danger"></p>
+          </div>
+          </div>
+          <div class="text-center">
+          <div id="success"></div>
+          <button type="submit" class="btn btn-lg btn-black">
+              <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+              Send Message
+          </button>
+          </div>
+      </form>
+    </div>
+
+
+</body>
+</html>
+
+
+
